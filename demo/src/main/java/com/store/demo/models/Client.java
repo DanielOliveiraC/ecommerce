@@ -5,8 +5,8 @@ import jakarta.persistence.Entity;
 @Entity
 public class Client extends User {
 
-    private String role = "CLIENT"; // Pode ser fixo para clientes
-
+    private String role = "CLIENT"; 
+    
     public Client() {
         super();
     }
